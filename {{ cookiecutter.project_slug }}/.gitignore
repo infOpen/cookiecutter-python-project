@@ -1,0 +1,25 @@
+# Build & packaging
+.eggs/
+{{ cookiecutter.project_slug }}.egg-info/
+build/
+dist/
+docs/_build
+
+# Python bytecode
+*.pyc
+
+# Tests & coverage
+.cache/
+.coverage
+.pytest_cache/
+reports/
+
+# Tox tests
+.tox
+
+# Vagrant
+.vagrant/
+
+# Vim swap files
+*.swo
+*.swp

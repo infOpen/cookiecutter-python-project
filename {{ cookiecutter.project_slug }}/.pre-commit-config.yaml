@@ -1,0 +1,39 @@
+---
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v1.2.3
+    hooks:
+      - id: autopep8-wrapper
+      - id: check-added-large-files
+      - id: check-docstring-first
+      - id: check-json
+      - id: check-yaml
+      - id: debug-statements
+      - id: end-of-file-fixer
+      - id: name-tests-test
+        args:
+          - '--django'
+      - id: flake8
+      - id: mixed-line-ending
+        args: ['--fix=no']
+      - id: requirements-txt-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/infopen/infopen-pre-commit-hooks
+    rev: 0.2.1
+    hooks:
+      - id: check-git-commit-message
+        stages:
+          - commit-msg
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v1.0.1
+    hooks:
+      - id: reorder-python-imports
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v1.2.0
+    hooks:
+      - id: pyupgrade
+  - repo: https://github.com/asottile/add-trailing-comma
+    rev: v0.6.4
+    hooks:
+      - id: add-trailing-comma
