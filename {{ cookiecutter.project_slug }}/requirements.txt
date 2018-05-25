@@ -1,6 +1,6 @@
 -e .
 bump2version==0.5.8
-docker-compose==1.20.1
+docker-compose==1.21.2
 gitchangelog==3.0.3
 pre-commit==1.8.2
 setuptools==39.0.1
