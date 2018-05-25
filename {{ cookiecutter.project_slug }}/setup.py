@@ -4,15 +4,11 @@ from setuptools import setup
 
 try:
     from sphinx.setup_command import BuildDoc
-    doc_cmdclass = {'doc': BuildDoc}
+    DOC_CMD_CLASS = {'doc': BuildDoc}
 except ImportError:
     print('WARNING - No documentation can be managed before Sphinx installed')
-    doc_cmdclass = {}
-
-
-# Command classes
-cmdclass = doc_cmdclass
+    DOC_CMD_CLASS = {}
 
 
 # Setup function, settings are in setup.cfg
-setup(cmdclass=cmdclass)
+setup(cmdclass=DOC_CMD_CLASS, version='{{ cookiecutter.version }}')
