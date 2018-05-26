@@ -1,0 +1,15 @@
+{
+    "project_slug": "test_01",
+    "project_name": "Test 01",
+    "project_description": "Python project description",
+    "project_license": "MIT license",
+    "git_provider": "github",
+    "git_username": "inf0pen",
+    "git_repository": "{{ cookiecutter.git_username }}/{{ cookiecutter.project_slug }}",
+    "author_email": "foo@bar",
+    "author_full_name": "Foo Bar",
+    "company_name": "Infopen",
+    "company_url": "http://infopen.pro",
+    "copyright_year": "{% now 'utc', '%Y' %}",
+    "version": "0.1.0-a1"
+}

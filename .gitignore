@@ -1,0 +1,19 @@
+# Swap files
+*.swo
+*.swp
+
+# Python bytecode
+*.pyc
+
+# Tox tests
+.tox
+
+# Pytest
+.cache
+.pytest_cache
+
+# Vagrant
+.vagrant
+
+# Bundle
+.bundle

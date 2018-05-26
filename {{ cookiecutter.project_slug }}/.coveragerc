@@ -1,0 +1,10 @@
+# Coverage settings
+
+[run]
+source = {{ cookiecutter.project_slug }}
+
+[html]
+directory = reports/coverage-html
+
+[xml]
+output = reports/coverage.xml
