@@ -6,7 +6,7 @@
     "project_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
     "git_provider": "github",
     "git_username": "inf0pen",
-    "git_repository": "{{ cookiecutter.git_username }}/{{ cookiecutter.project_slug }}",
+    "git_repository": "{{ cookiecutter.git_username }}/{{ cookiecutter.project_name }}",
     "author_email": "foo@bar",
     "author_full_name": "Foo Bar",
     "company_name": "Infopen",

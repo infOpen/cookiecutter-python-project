@@ -24,7 +24,7 @@ def common_tests(data, result):
 
 # Check root project
 def assert_root_directory(data, result):
-    assert result.project.basename == '{}'.format(data.get('project_slug'))
+    assert result.project.basename == '{}'.format(data.get('project_name'))
     assert result.project.isdir()
 
 
