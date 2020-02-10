@@ -1,7 +1,7 @@
 -e .
 bump2version==0.5.10
 docker-compose==1.22.0
-gitchangelog==3.0.3
+gitchangelog==3.0.4
 pre-commit==1.11.0
 setuptools==40.8.0
 Sphinx==1.8.0
